@@ -61,6 +61,47 @@ while condition {
 }
 ```
 
+###Functions
+
+Let's write a basic function
+
+```
+func sayHello(personName: String) -> String {
+    let greeting = "Hello, " + personName + "!"
+    return greeting
+}
+```
+
+Now let's write a function with multiple parameters
+
+```
+func sayHello(personName: String, alreadyGreeted: Bool) -> String {
+    if alreadyGreeted {
+        return sayHelloAgain(personName)
+    } else {
+        return sayHello(personName)
+    }
+}
+print(sayHello("Tim", alreadyGreeted: true))
+// prints "Hello again, Tim!"
+```
+
+We can have a function have **multiple** return values
+
+```
+func minMax(array: [Int]) -> (min: Int, max: Int) {
+    var currentMin = array[0]
+    var currentMax = array[0]
+    for value in array[1..<array.count] {
+        if value < currentMin {
+            currentMin = value
+        } else if value > currentMax {
+            currentMax = value
+        }
+    }
+    return (currentMin, currentMax)
+}
+```
 
 
 
