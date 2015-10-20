@@ -22,6 +22,19 @@ dynamicVariable = "I just changed the value"
 ```
 
 ###Data Types
+Strings, Integer, Float, double 
+
+OR
+
+Constants and variables can contain almost any characters including Unicode characters
+
+```
+let π = 3.14159
+let 你好 = "你好世界"
+let 🐶🐮 = "dogcow"
+```
+
+###Collection Types
 
 3 primary collection types
 
