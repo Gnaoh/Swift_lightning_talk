@@ -35,13 +35,31 @@ dynamicVariable = "I just changed the value"
 
 ###Control Flow
 
-**Loops**
--for 
+**For Loop**
 
--for in 
+```
+for var index = 0; index < 3; ++index {
+    print("index is \(index)")
+}
+```
 
--while
+**For In Loop**
 
+```
+let names = ["Anna", "Alex", "Brian", "Jack"]
+
+for name in names {
+    print("Hello, \(name)!")
+}
+```
+
+**While Loop**
+
+```
+while condition {
+    statements
+}
+```
 
 
 
