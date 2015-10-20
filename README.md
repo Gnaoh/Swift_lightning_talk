@@ -33,6 +33,14 @@ dynamicVariable = "I just changed the value"
 
 **Dictionary** - Unordered collection of key value pairs
 
+###Control Flow
+
+**Loops**
+-for 
+-for in 
+-while
+
+
 
 
 
