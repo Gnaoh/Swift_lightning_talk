@@ -28,7 +28,9 @@ dynamicVariable = "I just changed the value"
 ![alt tag](https://developer.apple.com/library/prerelease/ios/documentation/Swift/Conceptual/Swift_Programming_Language/Art/CollectionTypes_intro_2x.png)
 
 Array- ordered collection of values
+
 Set- unordered collection of unique values
+
 Dictionary - unordered collection of key value pairs
 
 
